@@ -50,4 +50,4 @@ jobs:
         oc apply -f openshift/deployment.yaml
         oc apply -f openshift/service.yaml
         oc apply -f openshift/route.yaml
-        oc rollout status deployment/nginx-isbeertime -w --timeout=3m
+        oc rollout status deployment/nginx-beertime -w --timeout=3m
