@@ -5,8 +5,8 @@ FROM nginx:alpine
 COPY nginx.conf /etc/nginx/nginx.conf
 RUN chmod -R g+w /var/cache/nginx /var/run /etc/nginx/conf.d /etc/nginx/nginx.conf
 
-# Expose port 80
-EXPOSE 80
+# Expose port 8080
+EXPOSE 8080
 
 # Start Nginx when the container launches
 CMD ["nginx", "-g", "daemon off;"]
