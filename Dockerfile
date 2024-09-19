@@ -3,6 +3,7 @@ FROM nginx:alpine
 
 # Copy the custom Nginx configuration file to the container
 COPY nginx.conf /etc/nginx/nginx.conf
+RUN chmod -R g+w /var/cache/nginx /var/run /etc/nginx/conf.d /etc/nginx/nginx.conf
 
 # Expose port 80
 EXPOSE 80
