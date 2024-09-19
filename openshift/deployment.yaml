@@ -16,4 +16,4 @@ spec:
       - name: nginx-beertime
         image: chrislse/nginx-beertime:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
