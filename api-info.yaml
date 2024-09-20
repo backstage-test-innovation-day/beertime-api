@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: my-api
-  description: This is an example API for demonstration purposes.
+  name: beer-api
+  description: Beer API for demonstration purposes.
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/your-repo/docs
+    backstage.io/techdocs-ref: url:https://redhat-developer-hub-cluoseb-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/catalog/default/component/isbeertime-api/docs
 spec:
   type: openapi
   lifecycle: production
