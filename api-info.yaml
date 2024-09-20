@@ -4,7 +4,7 @@ metadata:
   name: beer-api
   description: Beer API for demonstration purposes.
   annotations:
-    backstage.io/techdocs-ref: url:https://redhat-developer-hub-cluoseb-dev.apps.sandbox-m3.1530.p1.openshiftapps.com/catalog/default/component/isbeertime-api/docs
+    backstage.io/techdocs-ref: url:https://github.com/backstage-test-innovation-day/beertime-api/tree/main/docs
 spec:
   type: openapi
   lifecycle: production
