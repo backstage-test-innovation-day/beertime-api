@@ -12,6 +12,7 @@ metadata:
     - title: Storybook
       url: https://backstage.io/storybook
   annotations:
+    monitoring-dashboard: "https://www.githubstatus.com/"
     github.com/project-slug: backstage-test-innovation-day/backstage
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://www.webpagetest.org/result/240919_BiDcFR_6NE/
