@@ -20,4 +20,4 @@ spec:
   owner: Chris
   lifecycle: experimental
   dependsOn:
-    - "default/component/isipatime-api"
+    - "component:default/isipatime-api"
