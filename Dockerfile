@@ -6,6 +6,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 RUN chmod -R g+w /var/cache/nginx /var/run /etc/nginx/conf.d /etc/nginx/nginx.conf
 
 COPY beer_yes.gif /usr/share/nginx/html/beer_yes.gif
+COPY learnings.html /usr/share/nginx/html/learnings.html
 
 # Expose port 8080
 EXPOSE 8080
