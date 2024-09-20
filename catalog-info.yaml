@@ -19,3 +19,5 @@ spec:
   type: library
   owner: Chris
   lifecycle: experimental
+  dependsOn:
+    - component: default/isipatime-api
