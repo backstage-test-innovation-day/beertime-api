@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-api
+  description: This is an example API for demonstration purposes.
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/your-repo/docs
+spec:
+  type: openapi
+  lifecycle: production
+  owner: chris
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Beer API
+      version: 1.0.0
+    paths:
+      /:
+        get:
+          summary: Returns a GIF file
+          responses:
+            '200':
+              description: A GIF file
+              content:
+                image/gif:
+                  schema:
+                    type: string
+                    format: binary
