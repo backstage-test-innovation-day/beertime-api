@@ -52,3 +52,4 @@ jobs:
         oc replace -f openshift/service.yaml
         oc replace -f openshift/route.yaml
         oc rollout status deployment/nginx-beertime -w --timeout=3m
+        oc delete pods -l app=nginx-beertime
