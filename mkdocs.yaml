@@ -1,0 +1,7 @@
+site_name: 'Beer Time api Docs'
+nav:
+  - Home: README.md
+  - Getting Started: getting-started.md
+  - API Reference: api-reference.md
+plugins:
+  - techdocs-core
