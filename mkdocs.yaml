@@ -1,6 +1,6 @@
 site_name: 'Beer Time api Docs'
 nav:
-  - Home: README.md
+  - Home: docs/index.md
   - Getting Started: getting-started.md
   - API Reference: api-reference.md
 plugins:
